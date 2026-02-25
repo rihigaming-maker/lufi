@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léggömbök</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header> <!--A dokumentum fejléce,
+             ide kerül a főcím és a menü. A
+             keresőoptimalizálás
+             miatt is fontos használni. Csak egy darab  lehet belőle. -->
+
+             <div class="header-top-bar">
+             <div class="logo"><h1>Léggömbök minden alkalomra</h1></div>
+             <div class="header-icons">
+                <!--Ide kerül majd a logo 
+                kép vagy ikon-->
+                <img src="./logo.png">
+            </div>
+            </div>
+             <!--A narancs sárga navigációs sáv,
+              a menü-->
+             <nav class="main-nav">
+        <!--A menüt kötelező UL-LI-be tenni!-->
+                <ul>
+                    <li><a href="#">Újdonságok</a></li>
+                    <li><a href="#">Rólunk</a></li>
+                    <li><a href="#">Kapcsolat</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+             </nav>
+
+        </header>
+
+        <main> <!-- Ez a főbb tartalmi
+            rész. Optimális esetben egy
+            darab main tag-ed van. -->
+            <!--1. section rész-->
+            <section class="foresz">
+            
+            <div class="bal_oldal">
+                <h2>Party léggömbök minden alkalomra!</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum erat sed urna hendrerit volutpat pharetra in urna. Aliquam ac erat sed orci mollis aliquam a vitae nulla. Pellentesque diam erat, suscipit cursus rutrum id, consequat eget diam. Nullam sodales, turpis eu ornare pulvinar, arcu libero aliquam erat, quis molestie velit massa et erat. Morbi egestas pharetra ex, a consectetur nibh feugiat in. Fusce at commodo eros. Quisque dapibus malesuada lacus, ut ultricies justo condimentum a. Integer consectetur varius ipsum eu molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sit amet justo odio. Nam varius lorem a lectus fermentum, eget mollis diam fermentum. Integer quam mi, hendrerit ac finibus vitae, tincidunt quis lacus. Curabitur gravida ipsum eros, a condimentum sapien ultricies at. Donec ac commodo turpis, ut rhoncus arcu. Vestibulum sollicitudin pulvinar enim, non dictum nibh rhoncus quis. Quisque ultrices feugiat pretium.</p>
+
+                <p>Sed sagittis, augue nec egestas tincidunt, magna urna tempus diam, non porttitor magna nibh ac enim. Nam vestibulum augue convallis ligula placerat malesuada. Morbi commodo bibendum arcu ut pulvinar. Duis non eros id neque ultricies vehicula non sed diam. Suspendisse congue id sem eget placerat. In nec ipsum ac tortor lobortis malesuada. Curabitur a lorem dapibus, vulputate felis eget, tincidunt urna. Nunc consectetur turpis vitae elit aliquet vehicula ac in quam. Phasellus pharetra auctor lectus, at finibus odio pretium ac.</p>
+
+                <p>Aenean tempus consequat risus, ut iaculis eros rutrum dictum. Pellentesque accumsan, dui sit amet fermentum dignissim, diam enim fringilla nibh, vitae malesuada nisi lacus quis dui. Suspendisse condimentum pharetra ligula id sagittis. Nunc vel maximus turpis. Integer elit ante, elementum ac aliquam id, tincidunt eu orci. Duis eros velit, semper id dui at, dignissim varius ex. Sed eu augue quis lorem auctor imperdiet eu a nulla. Curabitur quam turpis, euismod nec tincidunt non, porta at nisl.</p>
+
+                <h2>Mire figyelj!</h2>
+
+                <ul>
+                    <li>Hélium vs. Levegő
+                        <ol>
+                            <li>Csak a héliummal töltött lufi száll fel.</li>
+                            <li>A levegővel fújt lufikhoz érdemes pálcát vagy nehezéket használni.</li>
+                        </ol>
+                    </li>
+                    <li>Környezetvédelem
+                        <ol>A fólia lufikat soha ne engedd fel a szabadba, mert nem bomlanak le és zavarhatják a vezetékeket.</ol>
+                    </li>
+                </ul>
+
+                <table border="1" style="border:solid black; width=100%;">
+                    <!--1. sor-->
+                <thead>
+                    <tr>
+                        <th>Jellemző</th>
+                        <th>Latex (Gumi) lufi</th>
+                        <th>Fólia (Mylar) lufi</th>
+                        <th>Bubble (Buborék) lufi</th>
+                    </tr>
+                </thead>
+                    <!--2. sor-->
+                     <tr>
+                        <td style="font-weight: bold;">Alapanyag</td>
+                        <td>Természetes latex (kaucsuk)</td>
+                        <td>Fémezett nejlon/műanyag	Rugalmas,</td>
+                        <td>átlátszó műanyag</td>
+                    </tr>
+
+                    <!--3. sor-->
+                     <tr>
+                        <td rowspan="2"><b>Lebegési idő</b></td> 
+                        <!--függőlegesen összevonja a cellákat, 2db-ot-->
+                        <td>Rövid</td>
+                        <td>Hosszú</td>
+                        <td>Nagyon hosszú</td>
+                    </tr>
+
+                    <!--4. sor-->
+                     <tr>
+                        <td>(12–24 óra)</td>
+                        <td>(több nap/hét)</td>
+                        <td>(2–4 hét)</td>
+                        
+                    </tr>
+
+                    <!--5. sor-->
+                     <tr>
+                        <td><strong>Környezeti hatás</strong></td>
+                        <td>Biológiailag lebomlik</td>
+                        <td colspan="2">Nem bomlik le</td>
+                        <!--Vízszintesen összevon 2 cellát 
+                        2 oszlopból 1-et csinal-->
+                    </tr>
+
+                    <!--6. sor-->
+                     <tr>
+                        <td style="font-weight: bold;">Újratölthetőség</td>
+                        <td>Általában nem ajánlott	Igen,</td>
+                        <td>szelepes	Igen,</td>
+                        <td>tartós anyag</td>
+                    </tr>
+
+                    <!--7. sor-->
+                     <tr>
+                        <td style="font-weight: bold;">Megjelenés</td>
+                        <td>Matt, metál vagy pasztell</td>
+                        <td>Fényes, figurális, számos</td>
+                        <td>Kristálytiszta, gömb alakú</td>
+                    </tr>
+
+                    <!--8. sor-->
+                     <tr>
+                        <td style="font-weight: bold;">Fő előnye</td>
+                        <td>Olcsó, környezetbarát</td>
+                        <td>Tartós, látványos formák</td>
+                        <td>Nem oxidálódik, antiallergén</td>
+                    </tr>
+
+                  
+
+
+
+                </table>
+
+            </div>
+
+            <div class="jobb_oldal">
+                <div class="ujdonsagok">
+                    <h3>Újdonságok</h3>
+                    <img src="./ujdonsag.png" width="80%">
+                </div>
+                <div class="klasszikusok">
+                    <h3>Klasszikusok</h3>
+                    <img src="./sziv-lufik.jpg" width="80%">
+                </div>
+            </div>
+
+            </section>
+
+            <!--2. section rész-->
+            <section class="welcome">
+                <div class="welcome-box content-box">
+                    <h2>Üdvözlünk az oldalon!</h2>
+                    <p>Morbi placerat hendrerit ipsum sed tincidunt. </p>
+
+                </div>
+                
+                <div class="about-box content box">
+                    <h2>Rólunk</h2>
+                    <p>Morbi placerat hendrerit ipsum sed tincidunt. </p>
+                </div>
+
+            </section>
+
+            <!--3. section rész jön-->
+            <section class="termekek">
+                <!--Egy darab termék div-et elkészítünk és azt ismételjük illetve módosítjuk-->
+                <div class="termek_db">
+                    <div class="termek-kep-tarto"><img class="termek-kep-tarto" src="./party-lufi.jpg"></div>
+                    <p>Party díszek</p>
+                </div>
+
+                <div class="termek_db">
+                    <div class="termek-kep-tarto"><img class="termek-kep-tarto" src="./lufi-desgin.png"></div>
+                    <p>Esküvői díszek</p>
+                </div>
+
+                <div class="termek_db">
+                    <div class="termek-kep-tarto"><img class="termek-kep-tarto" src="./lufi-kapu.png"></div>
+                    <p>Lufikapuk</p>
+                </div>
+
+                <div class="termek_db">
+                    <div class="termek-kep-tarto"><img class="termek-kep-tarto" src="./lufi-allat.png"></div>
+                    <p>Léggömb állatok</p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- A lábléc. Ebből is csak
+             egy darab lehet. -->
+             <p> 2026 ballons - A léggömbök világa.
+                Minden jog fenntartva.</p>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
